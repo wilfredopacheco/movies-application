@@ -1,10 +1,26 @@
+table, div {
+    transition: all 1s;
+}
+.jumbotron {
+    background-image: url("https://images.pexels.com/photos/274937/pexels-photo-274937.jpeg?cs=srgb&dl=board-cinema-cinematography-274937.jpg&fm=jpg");
+    background-size: cover;
+}
+
 html, body {
     height: 100%;
 }
 
-.container {
+.c {
     position: relative;
     top: 50%;
     transform: translateY(-100%);
     text-align: center;
+}
+.card {
+    position: relative;
+    top: 70%;
+    text-align: center;
+}
+#load {
+    visibility: visible;
 }
